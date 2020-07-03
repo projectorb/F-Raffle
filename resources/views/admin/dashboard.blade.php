@@ -16,12 +16,12 @@
           <!-- Content Row -->
           <div class="row">
 
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-8 mb-4">
 
               <!-- Illustrations -->
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Analytics</h6>
                 </div>
                 <div class="card-body">
                   <div class="text-center">
@@ -32,10 +32,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-4 mb-4">
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Summary</h6>
                 </div>
                 <div class="card-body">
                   <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
@@ -50,15 +50,4 @@
       </div>
       <!-- End of Main Content -->
 
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2020</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
-
-    </div>
 @endsection

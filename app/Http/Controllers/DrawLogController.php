@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class GenerateCode extends Controller
+class DrawLogController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class GenerateCode extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.draw_log.index');
     }
 
     /**

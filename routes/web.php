@@ -17,7 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::view('/admin', 'admin.dashboard')->name('dashboard');
-
 Route::view('/dashboard', 'admin.dashboard')->name('dashboard');
-Route::resource('/dashboard/generate', 'GenerateCode');
+Route::resource('/dashboard/generate', 'GenerateCodeController');
+Route::resource('/dashboard/prize', 'PrizeController');
+Route::resource('/dashboard/winner', 'WinnerController');
+Route::resource('/dashboard/draw', 'DrawLogController');

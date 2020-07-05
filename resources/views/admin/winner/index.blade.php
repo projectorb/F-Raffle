@@ -69,16 +69,13 @@
             <div class="card border-left-warning shadow h-100 py-2">
               <div class="card-body">
                 <div class="row no-gutters align-items-center">
-                  <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Category</div>
+                  <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Status</div>
                   <div class="col-12 mr-2">
                     <form class="mr-auto my-2 my-md-0 mw-100 navbar-search">
                     <div class="input-group">
                         <select class="form-group form-control border-0">
-                          <option>Description</option>
-                          <option>Quantity</option>
-                          <option>Category</option>
-                          <option>Major</option>
-                          <option>Status</option>
+                          <option>Okey</option>
+                          <option>N/A</option>
                         </select>
                     </div>
                   </form>
@@ -92,11 +89,11 @@
             <div class="card border-left-warning shadow h-100 py-2">
               <div class="card-body">
                 <div class="row no-gutters align-items-center">
-                  <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Look for</div>
+                  <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Look for winners name</div>
                   <div class="col-12 mr-2">
                     <form class="mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                     <div class="input-group">
-                      <input type="text" class="form-control bg-light border-0 small" placeholder="search.." aria-label="Search" aria-describedby="basic-addon2">
+                      <input type="text" class="form-control bg-light border-0 small" placeholder="Enter name..." aria-label="Search" aria-describedby="basic-addon2">
                       <div class="input-group-append">
                         <button class="btn btn-warning" type="button">
                           <i class="fas fa-search fa-sm"></i>

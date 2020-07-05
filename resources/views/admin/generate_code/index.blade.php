@@ -59,7 +59,7 @@
                 <div class="row">
                   <div class="col">
                     <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Generate Code</div>
-                    <button class="font-weight-bold text-primary-800 btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">Create</button>
+                    <button class="font-weight-bold text-primary-800 btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">Add</button>
                   </div>
                 </div>
               </div>
@@ -77,9 +77,8 @@
                     <form class="mr-auto my-2 my-md-0 mw-100 navbar-search">
                     <div class="input-group">
                         <select class="form-group form-control border-0">
-                          <option>Quantity</option>
-                          <option>Category</option>
-                          <option>Status</option>
+                          <option>Major</option>
+                          <option>Minor</option>
                         </select>
                     </div>
                   </form>
@@ -95,11 +94,11 @@
             <div class="card border-left-primary shadow h-100 py-2">
               <div class="card-body">
                 <div class="row no-gutters align-items-center">
-                  <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Look for</div>
+                  <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Look for raffle code</div>
                   <div class="col-12 mr-2">
                     <form class="mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                     <div class="input-group">
-                      <input type="text" class="form-control bg-light border-0 small" placeholder="search.." aria-label="Search" aria-describedby="basic-addon2">
+                      <input type="text" class="form-control bg-light border-0 small" placeholder="Enter raffle code..." aria-label="Search" aria-describedby="basic-addon2">
                       <div class="input-group-append">
                         <button class="btn btn-primary" type="button">
                           <i class="fas fa-search fa-sm"></i>

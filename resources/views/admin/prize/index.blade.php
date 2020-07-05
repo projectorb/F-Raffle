@@ -27,15 +27,9 @@
                       <label>Quantity</label>
                       <input type="text" class="form-control" placeholder="Quantity">
                     </div>
-                    <div class="col pt-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label>Major Prize</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label>Minor Prize</label>
-                      </div>
+                    <div class="col pt-3 form-check mt-4">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label>Major Prize</label>
                     </div>
                   </div>
                   <div class="row border-bottom py-2" id="prize-form">
@@ -51,15 +45,9 @@
                       <label>Quantity</label>
                       <input type="text" class="form-control" placeholder="Quantity">
                     </div>
-                    <div class="col pt-3">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label>Major Prize</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label>Minor Prize</label>
-                      </div>
+                    <div class="col pt-3 form-check mt-4">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label>Major Prize</label>
                     </div>
                   </div>
                   <div class="py-2">
@@ -98,11 +86,9 @@
                   <form class="mr-auto my-2 my-md-0 mw-100 navbar-search">
                   <div class="input-group">
                       <select class="form-group form-control border-0">
-                        <option>Description</option>
-                        <option>Quantity</option>
-                        <option>Category</option>
-                        <option>Major</option>
-                        <option>Status</option>
+                        <option>Sales Person</option>
+                        <option>Employee</option>
+                        <option>Customer</option>
                       </select>
                   </div>
                 </form>
@@ -116,11 +102,11 @@
           <div class="card border-left-success shadow h-100 py-2">
             <div class="card-body">
               <div class="row no-gutters align-items-center">
-                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Look for</div>
+                <div class="text-xs font-weight-bold text-success text-uppercase mb-1">search for prize name</div>
                 <div class="col-12 mr-2">
                   <form class="mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                   <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="search.." aria-label="Search" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Enter prize name..." aria-label="Search" aria-describedby="basic-addon2">
                     <div class="input-group-append">
                       <button class="btn btn-success" type="button">
                         <i class="fas fa-search fa-sm"></i>
@@ -162,7 +148,7 @@
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Description</th>
+                  <th>Prize Name</th>
                   <th>Quantity</th>
                   <th>Category</th>
                   <th>Major</th>
@@ -179,7 +165,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                    <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -193,7 +179,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                      <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -207,7 +193,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                      <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -221,7 +207,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                      <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -235,7 +221,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -249,7 +235,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -263,7 +249,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -277,7 +263,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -291,7 +277,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -305,7 +291,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -319,7 +305,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -333,7 +319,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -347,7 +333,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -361,7 +347,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -375,7 +361,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -389,7 +375,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -403,7 +389,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -417,7 +403,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -431,7 +417,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -445,7 +431,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -459,7 +445,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -473,7 +459,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -487,7 +473,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -501,7 +487,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -515,7 +501,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -529,7 +515,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -543,7 +529,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -557,7 +543,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -571,7 +557,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -585,7 +571,7 @@
                   <td>Yes</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -599,7 +585,7 @@
                   <td>No</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>
@@ -613,7 +599,7 @@
                   <td>No</td>
                   <td>Active</td>
                   <td class="text-center">
-                    <a href="" class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="tooltip" data-placement="top" title="Edit"><i class="far fa-edit"></i></a>
+                       <button class="btn btn-primary btn-circle mr-2 btn-sm" data-toggle="modal" data-target="#exampleModal" ><i class="far fa-edit" data-toggle="tooltip" data-placement="top" title="Edit"></i></button>
                     <form class="border-0 d-inline py-2 ">
                       <button class="btn btn-danger btn-circle btn-sm" data-toggle="tooltip" data-placement="top" title="Delete"><i class="far fa-trash-alt"></i></button>
                     </form>

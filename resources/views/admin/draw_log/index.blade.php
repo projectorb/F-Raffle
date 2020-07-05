@@ -70,11 +70,11 @@
             <div class="card border-left-info shadow h-100 py-2">
               <div class="card-body">
                 <div class="row no-gutters align-items-center">
-                  <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Look for</div>
+                  <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Look for  raffle code</div>
                   <div class="col-12 mr-2">
                     <form class="mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                     <div class="input-group">
-                      <input type="text" class="form-control bg-light border-0 small" placeholder="search.." aria-label="Search" aria-describedby="basic-addon2">
+                      <input type="text" class="form-control bg-light border-0 small" placeholder="Enter raffle code..." aria-label="Search" aria-describedby="basic-addon2">
                       <div class="input-group-append">
                         <button class="btn btn-info" type="button">
                           <i class="fas fa-search fa-sm"></i>

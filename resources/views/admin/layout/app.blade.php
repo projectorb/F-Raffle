@@ -17,8 +17,12 @@
 <body id="page-top">
   <div id="wrapper">
     @include('admin.inc.sidebar')
-    @yield('content')
+    <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content">
+
+      @yield('content')
     @include('admin.inc.footer')
+   
   </div>
   <!-- End of Page Wrapper -->
   @include('admin.inc.script')
